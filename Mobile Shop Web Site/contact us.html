@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A-MAX Mobile Center</title>
+    
+        <!-- Swiper CSS link -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+        <!-- CDN icon link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+        <!-- Custom CSS file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <h1 class="logoName">A-MAX Mobile </h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="product.html">product</a>
+            <a href="services.html">Services</a>
+            <a href="contact us.html">contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!--contact section start here-->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Send Us a Message</h2>
+            <br><br>
+            <p>The following is a template paragraph consisting of 100 words. It serves as a
+                 versatile framework that can be adapted for various contexts. This structure
+                  allows for the inclusion of essential information while maintaining clarity and
+                   coherence. By utilizing this template, one can effectively convey ideas, arguments,
+                    or narratives in a concise manner.  </p><br>
+                <p>The uniformity of the format ensures that the content remains organized, making it
+                     easier for readers to follow the main points. This approach is particularly useful
+                      in academic writing, professional reports, or any situation where clear 
+                      communication is paramount.</p>
+                <br>
+                    <br>
+
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>123/A, colombo 03.</p>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>+9474 456 7890</p>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@amaxmobile.lk</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contact" action="home.html" onSubmit="return validateForm()">
+
+                <h3>Name: <input type="text" id="name" name="name" placeholder="enter your name" /></h3>
+                <h3>Email : <input type="text" id="email" name="email" placeholder="Enter your email"/></h3>
+                <div id="msg"></div>
+                <h3>Phone number : <input type="text" id="phone" name="phone" placeholder="+94777777777" /></h3>
+                <h3>NIC : <input type="text" id="nic" name="nic" placeholder="enter your NIC"/></h3>
+                <h3>Message :  <textarea name="message" rows="5" placeholder="Message" required></textarea></h3>
+                <div><input type="submit" value="Submit" /></div>
+            </form>
+        </div>
+    </section>
+    <!--contact section end here -->
+
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <h2 class="logoName">A-MAX Mobile  </h2><br>
+                    <p>The Biggest Online Mobile Store</p>
+                </div>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="index.html"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="product.html"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="services.html"> <i class="fas fa-arrow-right"></i>Services</a>
+                <a href="contact us.html"> <i class="fas fa-arrow-right"></i>Contact </a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>our  services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+9474 456 7890</a>
+                <a href="#"> <i class="fas fa-envelope"></i>info@cafechillella.lk</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>A-MAX Mobile </span> |all rights reserved ! 
+        </div>
+    </footer>
+
+   <!-- swiper js link  -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <!-- custom js file  -->
+   <script src="script.js"></script>
+    
+</body>
+</html>
